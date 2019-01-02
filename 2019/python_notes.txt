@@ -1,0 +1,12 @@
+4 wide months
+3 tall per row months
+
+each month is 1100x900
+
+month contains month num, week days, and the months
+
+Months start at 0 by 4300
+
+each month (and edges) are separated by
+a width of 120
+and height of 125
