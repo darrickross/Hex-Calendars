@@ -1,0 +1,38 @@
+2019
+
+January
+    Length: 31
+    Starts: Tuesday
+February
+    Length: 28
+    Starts: Friday
+March
+    Length: 31
+    Starts: Friday
+April
+    Length: 30
+    Starts: Monday
+May
+    Length: 31
+    Starts: Wednesday
+June
+    Length: 30
+    Starts: Saturday
+July
+    Length: 31
+    Starts: Monday
+August
+    Length: 31
+    Starts: Thursday
+September
+    Length: 30
+    Starts: Sunday
+October
+    Length: 31
+    Starts: Tuesday
+November
+    Length: 30
+    Starts: Friday
+December
+    Length: 31
+    Starts: Sunday
