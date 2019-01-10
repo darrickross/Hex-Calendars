@@ -1,0 +1,22 @@
+4 wide months
+3 tall per row months
+
+each month is 1100px 900px
+
+month contains month num, week days, and the months
+
+Months start at 0px by 4300px with the bottom left of September
+
+each month (and edges) are separated by
+a width of 120px
+and height of 125px
+
+Colors used in text:
+* brown     b18906  (Weekday)
+* white     ffffff  (Month numbers)
+* gold      FFC20E  (Weekend)
+* Black     040707  (background)
+
+Logo used are either:
+* The_House_Of_Grit.png
+* UMBC_Retrivers.png
