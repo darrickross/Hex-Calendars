@@ -1,0 +1,46 @@
+Each month is 1100px by 900px sub sections
+
+the month numbers are 70px wide by 100px tall
+month number are spaced by 20px wide and 25px from the top
+
+470x25------------540x25        560x25------------630x25
+   |                 |             |                 |
+   |                 |             |                 |
+   |                 |             |                 |
+   |                 |             |                 |
+   |                 |             |                 |
+   |                 |             |                 |
+470x125-----------540x125       560x125-----------630x125
+
+================================================================================
+
+the days of the week are 50px wide by 70px tall
+spacing for day names are
+
+1100 wide with 7 sections of 110 px (each day is 2 letters with 10 px between)
+770 - 1100 = 330
+330 / 8 = 41.25 round to 40 and place 5px on both of the outer edges
+
+(<#px space>) [<day of the week> | <#px>]
+
+(45) [Su|110] (40) [Mo|110] (40) [Tu|110] (40) [We|110] (40) [Th|110] (40) [Fr|110] (40) [Sa|110] (45)
+
+7 days 8 spaces
+
+ Week Day Name Layout:
+    Su Mo Tu We Th Fr Sa
+
+    note that week starts on Sunday
+
+The top of the line will start at px 
+
+
+================================================================================
+
+the day numbers of the month are 50px wide by 70px tall
+spacing for number are 10px wide by 30px tall (between rows of days)
+spacing between day names and days numbers are 80px tall
+
+
+
+the bounding box for the first number is
