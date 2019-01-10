@@ -16,36 +16,3 @@ Colors are
 * white     ffffff
 * orange    ec9f23
 * Black     040707
-
-
-================================================================================
-Each month is 1100px by 900px sub sections
-
-the month numbers are 70px wide by 100px tall
-month number are spaced by 20px wide and 25px from the top
-
-470x25------------540x25        560x25------------630x25
-   |                 |             |                 |
-   |                 |             |                 |
-   |                 |             |                 |
-   |                 |             |                 |
-   |                 |             |                 |
-   |                 |             |                 |
-470x125-----------540x125       560x125-----------630x125
-
-
-
-the days of the week are 50px wide by 70px tall
-
-7 days 8 spaces
-
-
-the numbers of the month are 50px wide by 70px tall
-spacing for number are 10px wide by 30px tall (between rows of days)
-spacing between day names and days numbers are 80px tall
-
-
-
-the bounding box for the first number is
-
-================================================================================
