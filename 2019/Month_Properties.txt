@@ -28,7 +28,12 @@ Adjust Letter Spacing:  19.0    (May very based on each letter)
 ================================================================================
 
 the days of the week are 50px wide by 70px tall
-spacing for day names are
+spacing for day names are 10px in between each letter of the day
+(ie between m and o in Mo for monday)
+Spacing between each day is 40px
+Spacing from edge of the month to the first and last day name is 45px (explained below in example)
+Spacing between bottom of Month number and Day names is 140 px
+
 ################################################################################
                                     Text settings (Gimp)
 Font:                   Anonymous Pro Bold
@@ -46,6 +51,7 @@ Adjust Letter Spacing:  3.0     (May very based on each letter)
 770 - 1100 = 330
 330 / 8 = 41.25 round to 40 and place 5px on both of the outer edges
 
+Example:
 (<#px space>) [<day of the week> | <#px>]
 
 (45) [Su|110] (40) [Mo|110] (40) [Tu|110] (40) [We|110] (40) [Th|110] (40) [Fr|110] (40) [Sa|110] (45)
@@ -57,14 +63,34 @@ Adjust Letter Spacing:  3.0     (May very based on each letter)
 
     note that week starts on Sunday
 
-The top of the line will start at px 
+The top of the line will start at px 265
+Bottom is px 355
 
 
 ================================================================================
 
-the day numbers of the month are 50px wide by 70px tall
-spacing for number are 10px wide by 30px tall (between rows of days)
-spacing between day names and days numbers are 80px tall
+example max space month placement where 'xx' is a place holder for numbers I
+don't feel like representing
+Su Mo Tu We Th Fr Sa
+                  01    row 1
+xx xx xx xx xx xx 08    row 2
+xx xx xx xx xx xx 15    row 3
+xx xx xx xx xx xx 22    row 4
+xx xx xx xx xx xx 29    row 5
+xx 31                   row 6
+
+which means we have to support 6 rows of days (each 70px tall)
+meaning 5 interior spaces 2 exterior
+remaining space is 565px tall
+
+6 * 70 = 420
+565 - 420 = 145
+145/8 = 18.125  round to 15px spacing with extra 1px given to the space
+                    between the day names and the Day #s
+
+use the same math from day names:
+(45) [Su|110] (40) [Mo|110] (40) [Tu|110] (40) [We|110] (40) [Th|110] (40) [Fr|110] (40) [Sa|110] (45)
+
 ################################################################################
                                     Text settings (Gimp)
 Font:                   Anonymous Pro Bold
@@ -78,6 +104,13 @@ Adjust Letter Spacing:  3.0     (May very based on each letter)
 
 ################################################################################
 
+********************************************************************************
+spacing between day names and Day #s is 25px tall
+Day #s are 50px wide by 70px tall
+spacing for Day #s are 40px wide by 20px tall (between rows of days)
+spacing between the ten and ones digit is 10px
+********************************************************************************
 
+355 + 25 = 380
 
-the bounding box for the first number is
+Day #s start at 380px (north/south) and 45px (west/east)
