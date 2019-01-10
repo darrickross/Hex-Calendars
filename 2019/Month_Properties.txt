@@ -12,10 +12,35 @@ month number are spaced by 20px wide and 25px from the top
    |                 |             |                 |
 470x125-----------540x125       560x125-----------630x125
 
+################################################################################
+                                    Text settings (Gimp)
+Font:                   Anonymous Pro Bold
+Size:                   142
+Antialiasing:           On
+Hinting:                None
+Justify:                Centered
+Indentation:            0.0
+Adjust Line Spacing:    0.0
+Adjust Letter Spacing:  19.0    (May very based on each letter)
+
+################################################################################
+
 ================================================================================
 
 the days of the week are 50px wide by 70px tall
 spacing for day names are
+################################################################################
+                                    Text settings (Gimp)
+Font:                   Anonymous Pro Bold
+Size:                   104
+Antialiasing:           On
+Hinting:                None
+Justify:                Centered
+Indentation:            0.0
+Adjust Line Spacing:    0.0
+Adjust Letter Spacing:  3.0     (May very based on each letter)
+
+################################################################################
 
 1100 wide with 7 sections of 110 px (each day is 2 letters with 10 px between)
 770 - 1100 = 330
@@ -40,6 +65,18 @@ The top of the line will start at px
 the day numbers of the month are 50px wide by 70px tall
 spacing for number are 10px wide by 30px tall (between rows of days)
 spacing between day names and days numbers are 80px tall
+################################################################################
+                                    Text settings (Gimp)
+Font:                   Anonymous Pro Bold
+Size:                   104
+Antialiasing:           On
+Hinting:                None
+Justify:                Centered
+Indentation:            0.0
+Adjust Line Spacing:    0.0
+Adjust Letter Spacing:  3.0     (May very based on each letter)
+
+################################################################################
 
 
 
