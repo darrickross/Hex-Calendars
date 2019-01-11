@@ -16,3 +16,8 @@ Colors are
 * white     ffffff
 * orange    ec9f23
 * Black     040707
+
+
+2 Calendars made, have black background, with green year, and weekends, with
+white weekdays. But one has a Python logo from the 2018 Python Calendar. The
+other has an ubuntu logo from the 2018 ubuntu Calendar.
