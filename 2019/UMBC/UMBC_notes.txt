@@ -12,11 +12,33 @@ a width of 120px
 and height of 125px
 
 Colors used in text:
-* brown     b18906  (Weekday)
-* white     ffffff  (Month numbers)
-* gold      FFC20E  (Weekend)
-* Black     040707  (background)
+* white     ffffff
+* gold      FFC20E  (Weekend colors)
+* Black     040707  (background for dark themes)
 
 Logo used are either:
 * The_House_Of_Grit.png
-* UMBC_Retrivers.png
+* UMBC_Retrievers.png
+
+
+Calendar Versions:
+* House of Grit Light
+    * White background
+    * House of Grit Logo
+    * Gold Weekend Color
+    * Black (000000) weekdays and months
+* House of Grit Dark
+    * Black (040707) background
+    * House of Grit Logo
+    * Gold Weekend Color
+    * White (ffffff) weekdays and months
+* UMBC Retrievers Light
+    * White background
+    * UMBC Retrievers Logo
+    * Gold Weekend Color
+    * Black (000000) weekdays and months
+* UMBC Retrievers Dark
+    * Black (040707) background
+    * UMBC Retrievers Logo
+    * Gold Weekend Color
+    * White (ffffff) weekdays and months
